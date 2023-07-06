@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Style sheet -->
+
+    <link rel="stylesheet" href="css/style1.css" />
+    <!-- Bootstrap -->
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script> -->
+
+    <link rel="stylesheet" href="lib/bootstrap-5.0.2-dist/css/bootstrap-grid.min.css" />
+    <!-- Font_Awesome -->
+
+    <link rel="stylesheet" href="lib/fontawesome-6.2.1/css/all.min.css" />
+    <title>Your Guide Tourism</title>
+    <style>
+        .blue{
+            margin-right:5px;
+            color:aqua;
+        }
+        .txt-nav{
+            font-size:20px;
+            color:white;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Header section -->
+    <?php
+    include "nav.php";
+   ?>
+
+    <section class="home" id="home">
+        <div class="image" data-aos="fade-down">
+            <img src="img/32.png" alt="" />
+        </div>
+
+        <div class="content" data-aos="fade-up">
+            <h2>adventure is worthwhile</h2>
+            <p>
+                Outdoor Adventure Can Essentially Function Like An Extreme Meditation
+                Cushion, Teaching Not Only Concentration, But Also Inquiry,
+                Compassion, And Right Action, Says Adventurer Renée Sharp.!
+            </p>
+        </div>
+    </section>
+
+    
+    <div class="banner">
+
+        <div class="content" data-aos="zoom-in-up" data-aos-delay="300">
+            <span>start your adventures</span>
+            <h3>Let's Explore This World</h3>
+            <h1>Popular rivers in Pakistan that you can visit</h1>
+        </div>
+    
+    </div>
+
+    <section class="desert">
+        <div class="video-container">
+            <video src="img/Jehlum river.mp4" muted autoplay loop class="video"></video>
+        </div>
+        <div class="content">
+            <h2>Jhelum River</h2>
+            <p>The Jhelum River is a river in the northern Indian subcontinent. It originates at Verinag and flows through the Indian-administered territory of Jammu and Kashmir, into the Pakistani-administered territory of Kashmir, then the Pakistani province of Punjab.</p>
+                <h1>Length: 725 km</h1>
+               <h1>Source: Pir Panjal Range</h1>
+               <h1>Bridges: Jhelum Bridge, Zero Bridge, Kohala</h1>
+            <a href="user-registration.php" class="btn">Book now</a>
+            <a href="jehlum.php" class="btn">Services</a>
+        </div>
+    </section>
+    <section class="desert">
+        <!-- Carousel -->
+        <div class="video-container">
+            <video src="img/Chanab river.mp4" muted autoplay loop class="video"></video>
+        </div>
+        <div class="content">
+            <h2>Chenab River</h2>
+            <p>The Chenab River is a major river that flows in India and Pakistan, and is one of the 5 major rivers of the Punjab region. It is formed by the union of two headwaters, Chandra and Bhaga, which rise in the upper Himalayas in the Lahaul region of Himachal Pradesh, India.</p>
+              <h1>Length: 960 km</h1>  
+              <h1>Flows through (areas in India): Himachal Pradesh, Jammu and Kashmir</h1>
+              <h1>Bridges: Chenab Rail Bridge</h1>
+            <a href="user-registration.php" class="btn">Book now</a>
+            <a href="Chenab River.php" class="btn">Services</a>
+        </div>
+    </section>
+    <section class="desert">
+        <!-- Carousel -->
+        <div class="video-container">
+            <video src="img/Ravi river.mp4" muted autoplay loop class="video"></video>
+        </div>
+        <div class="content">
+            <h2>Ravi River</h2>
+            <p>The Ravi River (/ˈrɑːvi/) is a transboundary river crossing northwestern India and eastern Pakistan. It is one of five rivers associated with the Punjab region.[3]
+                Under the Indus Waters Treaty of 1960, the waters of the Ravi and two other rivers were allocated to India. Subsequently, the Indus Basin Project was developed in Pakistan, which transfers waters from western rivers of the Indus system to replenish the portion of the Ravi River lying in that country. </p>
+            <h1>location:Near Saraisidhu, Punjab, Pakistan</h1>
+           <h1>Distance:11,015.23 m3/s (388,999 cu ft/s) (near Baloki)</h1> 
+            <a href="user-registration.php" class="btn">Book now</a>
+            <a href="ravi.php" class="btn">Services</a>
+        </div>
+    </section>
+    <section class="desert">
+        <!-- Carousel -->
+        <div class="video-container">
+            <video src="img/Satluj river.mp4" muted autoplay loop class="video"></video>
+        </div>
+        <div class="content">
+            <h2>Sutlej River</h2>
+            <p>The Sutlej or Satluj River is the longest of the five rivers that flow through the historic crossroads region of Punjab in northern India and Pakistan. The Sutlej River is also known as Satadru. It is the easternmost tributary of the Indus River.</p>
+            <h1>Length: 1,450 km</h1>
+            <h1>Discharge: 500 m³/s</h1>
+            <a href="user-registration.php" class="btn">Book now</a>
+            <a href="Sutlej River.php" class="btn">Services</a>
+        </div>
+    </section>
+
+    <section class="footer">
+        <div class="box-container">
+            <div class="box" data-aos="fade-up">
+                <h3>our branches</h3>
+                <a href="#"> <i class="fas fa-map-marker-alt"></i> murree </a>
+                <a href="#"> <i class="fas fa-map-marker-alt"></i> islamabad </a>
+                <a href="#"> <i class="fas fa-map-marker-alt"></i> lahore </a>
+                <a href="#"> <i class="fas fa-map-marker-alt"></i> multan </a>
+                <a href="#"> <i class="fas fa-map-marker-alt"></i> bahawalpur </a>
+            </div>
+            <div class="box" data-aos="fade-up">
+                <h3>quick links</h3>
+                <a href="index.html"> <i class="fas fa-chevron-right"></i> home </a>
+                <a href="weather.php"> <i class="fas fa-chevron-right"></i> weather </a>
+                <a href="blog.php"> <i class="fas fa-chevron-right"></i> blogs </a>
+            </div>
+            <div class="box" data-aos="fade-up">
+                <h3>contact info</h3>
+                <a href="#"> <i class="fas fa-phone"></i> +92 320 5726089 </a>
+                <a href="#"> <i class="fas fa-phone"></i> +92 301 5383667 </a>
+                <a href="#"> <i class="fas fa-phone"></i> +92 333 5305692 </a>
+                <a href="#"> <i class="fas fa-map-marker-alt"></i> Lahore, Punjab </a>
+            </div>
+            <div class="box" data-aos="fade-up">
+                <h3>follow us</h3>
+                <a href="https://www.facebook.com">
+                    <i class="fab fa-facebook-f"></i> facebook
+                </a>
+                <a href="https://www.twitter.com">
+                    <i class="fab fa-twitter"></i> twitter
+                </a>
+                <a href="https://www.instagram.com">
+                    <i class="fab fa-instagram"></i> instagram
+                </a>
+                <a href="https://www.linkedin.com">
+                    <i class="fab fa-linkedin"></i> linkedin
+                </a>
+                <a href="https://www.pinterest.com">
+                    <i class="fab fa-pinterest"></i> pinterest
+                </a>
+            </div>
+        </div>
+        <div class="credit">
+            created by <span>.Hashim Azeem, Malik Bahlol, Zaineb Rashid.</span>
+        </div>
+    </section>
+</body>
+
+</html>

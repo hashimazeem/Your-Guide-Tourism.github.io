@@ -1,0 +1,20 @@
+/* CSS */
+
+/* Increase the size of the modal window */
+.swal2-modal {
+    width: 500px !important; /* Adjust the width as needed */
+  }
+  
+  /* Adjust the text size */
+  .swal2-title,
+  .swal2-content {
+    font-size: 18px !important; /* Adjust the font size as needed */
+  }
+  
+  /* Adjust the buttons size */
+  .swal2-confirm,
+  .swal2-cancel {
+    font-size: 16px !important; /* Adjust the font size as needed */
+    padding: 10px 20px !important; /* Adjust the padding as needed */
+  }
+  
